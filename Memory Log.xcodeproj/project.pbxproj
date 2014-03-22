@@ -12,15 +12,17 @@
 		B5924CB118DD9EE60032198A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5924CB018DD9EE60032198A /* UIKit.framework */; };
 		B5924CB718DD9EE60032198A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5924CB518DD9EE60032198A /* InfoPlist.strings */; };
 		B5924CB918DD9EE60032198A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CB818DD9EE60032198A /* main.m */; };
-		B5924CBD18DD9EE60032198A /* KKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CBC18DD9EE60032198A /* KKAppDelegate.m */; };
 		B5924CC018DD9EE60032198A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5924CBE18DD9EE60032198A /* Main.storyboard */; };
-		B5924CC318DD9EE60032198A /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CC218DD9EE60032198A /* KKViewController.m */; };
 		B5924CC518DD9EE70032198A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5924CC418DD9EE70032198A /* Images.xcassets */; };
 		B5924CCC18DD9EE70032198A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5924CCB18DD9EE70032198A /* XCTest.framework */; };
 		B5924CCD18DD9EE70032198A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5924CAC18DD9EE60032198A /* Foundation.framework */; };
 		B5924CCE18DD9EE70032198A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5924CB018DD9EE60032198A /* UIKit.framework */; };
 		B5924CD618DD9EE70032198A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5924CD418DD9EE70032198A /* InfoPlist.strings */; };
 		B5924CD818DD9EE70032198A /* Memory_LogTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CD718DD9EE70032198A /* Memory_LogTests.m */; };
+		B5924CEB18DD9F8D0032198A /* KKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CE618DD9F8D0032198A /* KKAppDelegate.m */; };
+		B5924CEC18DD9F8D0032198A /* KKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CE818DD9F8D0032198A /* KKViewController.m */; };
+		B5924CED18DD9F8D0032198A /* NSObject+MemoryLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B5924CEA18DD9F8D0032198A /* NSObject+MemoryLog.m */; };
+		FA519276A61F477C8ADD78DD /* libPods-Memory Log.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B10892E00E4EE5983C7A01 /* libPods-Memory Log.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4ACCAB29AFE049E691DE13A2 /* Pods-Memory Log.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memory Log.xcconfig"; path = "Pods/Pods-Memory Log.xcconfig"; sourceTree = "<group>"; };
+		67B10892E00E4EE5983C7A01 /* libPods-Memory Log.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Memory Log.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5924CA918DD9EE60032198A /* Memory Log.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Log.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5924CAC18DD9EE60032198A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B5924CAE18DD9EE60032198A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,17 +46,19 @@
 		B5924CB618DD9EE60032198A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5924CB818DD9EE60032198A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5924CBA18DD9EE60032198A /* Memory Log-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memory Log-Prefix.pch"; sourceTree = "<group>"; };
-		B5924CBB18DD9EE60032198A /* KKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKAppDelegate.h; sourceTree = "<group>"; };
-		B5924CBC18DD9EE60032198A /* KKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAppDelegate.m; sourceTree = "<group>"; };
 		B5924CBF18DD9EE60032198A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B5924CC118DD9EE60032198A /* KKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
-		B5924CC218DD9EE60032198A /* KKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
 		B5924CC418DD9EE70032198A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5924CCA18DD9EE70032198A /* Memory LogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory LogTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5924CCB18DD9EE70032198A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B5924CD318DD9EE70032198A /* Memory LogTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memory LogTests-Info.plist"; sourceTree = "<group>"; };
 		B5924CD518DD9EE70032198A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B5924CD718DD9EE70032198A /* Memory_LogTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memory_LogTests.m; sourceTree = "<group>"; };
+		B5924CE518DD9F8D0032198A /* KKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAppDelegate.h; sourceTree = "<group>"; };
+		B5924CE618DD9F8D0032198A /* KKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAppDelegate.m; sourceTree = "<group>"; };
+		B5924CE718DD9F8D0032198A /* KKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKViewController.h; sourceTree = "<group>"; };
+		B5924CE818DD9F8D0032198A /* KKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKViewController.m; sourceTree = "<group>"; };
+		B5924CE918DD9F8D0032198A /* NSObject+MemoryLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLog.h"; sourceTree = "<group>"; };
+		B5924CEA18DD9F8D0032198A /* NSObject+MemoryLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				B5924CAF18DD9EE60032198A /* CoreGraphics.framework in Frameworks */,
 				B5924CB118DD9EE60032198A /* UIKit.framework in Frameworks */,
 				B5924CAD18DD9EE60032198A /* Foundation.framework in Frameworks */,
+				FA519276A61F477C8ADD78DD /* libPods-Memory Log.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +93,7 @@
 				B5924CD118DD9EE70032198A /* Memory LogTests */,
 				B5924CAB18DD9EE60032198A /* Frameworks */,
 				B5924CAA18DD9EE60032198A /* Products */,
+				4ACCAB29AFE049E691DE13A2 /* Pods-Memory Log.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,7 @@
 				B5924CAE18DD9EE60032198A /* CoreGraphics.framework */,
 				B5924CB018DD9EE60032198A /* UIKit.framework */,
 				B5924CCB18DD9EE70032198A /* XCTest.framework */,
+				67B10892E00E4EE5983C7A01 /* libPods-Memory Log.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +121,8 @@
 		B5924CB218DD9EE60032198A /* Memory Log */ = {
 			isa = PBXGroup;
 			children = (
-				B5924CBB18DD9EE60032198A /* KKAppDelegate.h */,
-				B5924CBC18DD9EE60032198A /* KKAppDelegate.m */,
+				B5924CE418DD9F8D0032198A /* Classes */,
 				B5924CBE18DD9EE60032198A /* Main.storyboard */,
-				B5924CC118DD9EE60032198A /* KKViewController.h */,
-				B5924CC218DD9EE60032198A /* KKViewController.m */,
 				B5924CC418DD9EE70032198A /* Images.xcassets */,
 				B5924CB318DD9EE60032198A /* Supporting Files */,
 			);
@@ -152,6 +158,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B5924CE418DD9F8D0032198A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B5924CE518DD9F8D0032198A /* KKAppDelegate.h */,
+				B5924CE618DD9F8D0032198A /* KKAppDelegate.m */,
+				B5924CE718DD9F8D0032198A /* KKViewController.h */,
+				B5924CE818DD9F8D0032198A /* KKViewController.m */,
+				B5924CE918DD9F8D0032198A /* NSObject+MemoryLog.h */,
+				B5924CEA18DD9F8D0032198A /* NSObject+MemoryLog.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5924CDB18DD9EE70032198A /* Build configuration list for PBXNativeTarget "Memory Log" */;
 			buildPhases = (
+				393575E567D34FC2A2BED561 /* Check Pods Manifest.lock */,
 				B5924CA518DD9EE60032198A /* Sources */,
 				B5924CA618DD9EE60032198A /* Frameworks */,
 				B5924CA718DD9EE60032198A /* Resources */,
+				2BE72AC9C7DB4F86AC634BB7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,13 +266,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BE72AC9C7DB4F86AC634BB7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Memory Log-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		393575E567D34FC2A2BED561 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5924CA518DD9EE60032198A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5924CC318DD9EE60032198A /* KKViewController.m in Sources */,
-				B5924CBD18DD9EE60032198A /* KKAppDelegate.m in Sources */,
+				B5924CEC18DD9F8D0032198A /* KKViewController.m in Sources */,
+				B5924CED18DD9F8D0032198A /* NSObject+MemoryLog.m in Sources */,
+				B5924CEB18DD9F8D0032198A /* KKAppDelegate.m in Sources */,
 				B5924CB918DD9EE60032198A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,6 +431,7 @@
 		};
 		B5924CDC18DD9EE70032198A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACCAB29AFE049E691DE13A2 /* Pods-Memory Log.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -389,6 +445,7 @@
 		};
 		B5924CDD18DD9EE70032198A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACCAB29AFE049E691DE13A2 /* Pods-Memory Log.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -461,6 +518,7 @@
 				B5924CDD18DD9EE70032198A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5924CDE18DD9EE70032198A /* Build configuration list for PBXNativeTarget "Memory LogTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +527,7 @@
 				B5924CE018DD9EE70032198A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
