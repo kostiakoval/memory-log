@@ -3,11 +3,14 @@
 
 target "Memory Log" do
     
-pod 'JRSwizzle', '~> 1.0'
-
+    pod 'JRSwizzle', '~> 1.0'
+    pod 'MKFoundationKit', '1.2.0'
+    
 end
 
 target "Memory LogTests" do
+    pod 'OCMock', '2.2.3'
+
 
 end
 

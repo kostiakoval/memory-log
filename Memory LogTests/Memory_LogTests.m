@@ -7,6 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "NSObject+MemoryLog.h"
+#import <OCMock.h>
+#import "KKTestObject.h"
 
 @interface Memory_LogTests : XCTestCase
 
@@ -26,7 +29,7 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testEnableLog
 {
     XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
 }

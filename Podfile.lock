@@ -1,10 +1,40 @@
 PODS:
   - JRSwizzle (1.0)
+  - MKFoundationKit (1.2.0):
+    - MKFoundationKit/AutoDescribe
+    - MKFoundationKit/Base64
+    - MKFoundationKit/Block
+    - MKFoundationKit/NSArray
+    - MKFoundationKit/NSDate
+    - MKFoundationKit/NSDictionary
+    - MKFoundationKit/NSNumber
+    - MKFoundationKit/NSSet
+    - MKFoundationKit/NSString
+    - MKFoundationKit/Queue
+    - MKFoundationKit/Stack
+  - MKFoundationKit/AutoDescribe (1.2.0)
+  - MKFoundationKit/Base64 (1.2.0)
+  - MKFoundationKit/Block (1.2.0)
+  - MKFoundationKit/NSArray (1.2.0)
+  - MKFoundationKit/NSDate (1.2.0)
+  - MKFoundationKit/NSDictionary (1.2.0)
+  - MKFoundationKit/NSNumber (1.2.0)
+  - MKFoundationKit/NSSet (1.2.0):
+    - MKFoundationKit/Block
+  - MKFoundationKit/NSString (1.2.0):
+    - MKFoundationKit/Base64
+  - MKFoundationKit/Queue (1.2.0)
+  - MKFoundationKit/Stack (1.2.0)
+  - OCMock (2.2.3)
 
 DEPENDENCIES:
   - JRSwizzle (~> 1.0)
+  - MKFoundationKit (= 1.2.0)
+  - OCMock (= 2.2.3)
 
 SPEC CHECKSUMS:
   JRSwizzle: 6242ff38485d870fc2636899048ee1ab883ae587
+  MKFoundationKit: 1fe9f320f8a457ee7b212be72f426f00429e6bdf
+  OCMock: 74e4ddbcef134170dcc844f91c691f13868075d7
 
 COCOAPODS: 0.29.0

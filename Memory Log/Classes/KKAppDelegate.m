@@ -7,11 +7,21 @@
 //
 
 #import "KKAppDelegate.h"
+#import "NSObject+MemoryLog.h"
 
 @implementation KKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [NSObject logOnly: @[@"UIView", @"UIViewController"]];
+    [NSObject enableLog];
+    
+    @autoreleasepool {
+        UIView *view = [UIView new];
+        UIViewController *vc = [UIViewController new];
+    }
+
+    
     // Override point for customization after application launch.
     return YES;
 }
